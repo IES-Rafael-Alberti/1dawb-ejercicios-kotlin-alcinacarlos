@@ -124,13 +124,13 @@ fun menuEj(unidad: Int) {
                 }
                 salir = false
             }
-            /*
+
             3 -> {
                 do{
                     mostrarUnidad3()
                     ejercicio = readln().toIntOrNull()
                 }while (ejercicio == null || ejercicio !in 1..12)
-                when(Ejercicioercicio){
+                when(ejercicio){
                     1 -> u3EjercicioListas04()
                     2 -> u3EjercicioListas06()
                     3 -> u3EjercicioListas08()
@@ -152,7 +152,7 @@ fun menuEj(unidad: Int) {
                     19 -> u3EjercicioConjuntos06()
                 }
                 salir = false
-            }*/
+            }
         }
     } while (salir)
 }
