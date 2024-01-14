@@ -72,10 +72,6 @@ fun elegirUnidad(): Int {
     } while (unidad == null || unidad !in 1..3)
     return unidad
 }
-
-fun elegirEj(rango:IntRange) {
-
-}
 fun menuEj(unidad: Int) {
     var salir:Boolean = true
     var ejercicio:Int? = null
@@ -128,6 +124,7 @@ fun menuEj(unidad: Int) {
                 }
                 salir = false
             }
+            /*
             3 -> {
                 do{
                     mostrarUnidad3()
@@ -155,7 +152,7 @@ fun menuEj(unidad: Int) {
                     19 -> u3EjercicioConjuntos06()
                 }
                 salir = false
-            }
+            }*/
         }
     } while (salir)
 }
