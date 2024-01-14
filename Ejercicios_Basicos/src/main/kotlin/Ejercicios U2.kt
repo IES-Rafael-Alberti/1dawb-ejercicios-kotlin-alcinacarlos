@@ -140,7 +140,7 @@ fun u2EjercicioCon10() {
     }
 }
 
-fun u2EjercicioIte2 {
+fun u2EjercicioIte2() {
     print("Introduce tu edad: ")
     val edad = readLine()?.toIntOrNull() ?: run {
         println("Error: Entrada no válida.")
